@@ -1,13 +1,24 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset default margin and padding */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box; /* This ensures that padding does not affect the total width of elements */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* setting entire website to "Play" Font from google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Play\:wght@400;700&display=swap");
+
+body {
+  font-family: "Play", sans-serif;
 }
+
+/* white blinker for search bar */
+.white-cursor {
+  caret-color: white !important;
+}
+

@@ -1,17 +1,25 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// global import for css styles
+import "./index.css"; 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// react imports
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+// main component imports
+import { App } from "./App";
+import { CartLogic } from "./CartContextLogic";
+import { PageLogic } from "./PageContextLogic";
+
+// initialize the root element for the React application
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+// render the application within React's StrictMode for highlighting potential problems
 root.render(
   <React.StrictMode>
-    <App />
+    <PageLogic>
+      <CartLogic>
+        <App/>
+      </CartLogic>
+    </PageLogic>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

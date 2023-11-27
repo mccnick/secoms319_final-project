@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+// context import from React
+import React from "react";
+import { useContext } from "react";
+import { useState } from 'react';
+import Home from './Views/Home';
+import { CartLogic } from "./Views/CartView";
+import { ItemsLogic } from "./Views/ItemsView";
+import { ConfirmLogic } from "./Views/ConfirmView";
+import { PageContext } from "./PageContextLogic";
+import Author from "./Views/Author";
+import Navbar from "./Navbar";
 
-function App() {
+
+
+// ---------------------------
+// -------- export -----------
+// ---------------------------
+export const App = () => {
+  const { page } = useContext(PageContext);
+
+
+  if (page === "items") { return <ItemsLogic />; }
+  if (page === "cart") { return <CartLogic />; }
+  if (page === "confirmation") { return <ConfirmLogic />; }
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+    <>
+      <Navbar /> {/* Include the Navbar at the top */}
+      {page === "home" && <Home />}
+      {page === "items" && <ItemsLogic />}
+      {page === "cart" && <CartLogic />}
+      {page === "author" && <Author />}
 
-export default App;
+
+      {page !== "home" && page !== "items" && page !== "cart" && page !== "confirmation" && page !== "author" && <div>Page not found.</div>}
+    </>
+  );
+};
