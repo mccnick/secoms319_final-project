@@ -10,7 +10,7 @@ app.use(express.json());
 const db = mysql.createConnection({
     host: "localhost",
     user: "nick",
-    password: 'secoms319final',
+    password: 'password',
     database: 'secoms319final'
 });
 
@@ -42,7 +42,7 @@ app.get('/items', (req, res) => {
 
 // GET
 // endpoint for getting current ratings
-app.get('/ratings/:itemId', (req, res) => {
+app.get('/rating/:itemId', (req, res) => {
     const itemId = req.params.itemId;
     db.query('SELECT rating FROM itemRatings WHERE itemId = ?', [itemId], (err, result) => {
         if (err) {
@@ -55,7 +55,7 @@ app.get('/ratings/:itemId', (req, res) => {
 
 // POST
 // endpoint for posting new ratings
-app.post('/ratings/:itemId', (req, res) => {
+app.post('/rating/:itemId', (req, res) => {
     const itemId = req.params.itemId;
     const { rating } = req.body;
     db.query('INSERT INTO itemRatings (itemId, rating) VALUES (?, ?) ON DUPLICATE KEY UPDATE rating = ?', [itemId, rating, rating], (err, result) => {
@@ -83,6 +83,40 @@ app.delete('/items/:id', (req, res) => {
         res.json({ success: true });
     });
 });
+
+// PUT endpoint to update an item's price
+app.put('/items/:id', (req, res) => {
+    const { id } = req.params;
+    const { price } = req.body;
+    db.query('UPDATE metalcore_merch SET price = ? WHERE id = ?', [price, id], (err, result) => {
+      if (err) {
+        res.status(500).send('Error updating item in the database');
+        return;
+      }
+      res.json({ success: true });
+    });
+  });
+  
+
+// POST endpoint to add a new item to the metalcore_merch table
+app.post('/items', (req, res) => {
+    // Include rating in the destructured object
+    const { name, price, image, rating } = req.body;
+
+    // Make sure your metalcore_merch table has a column named 'rating'
+    const query = 'INSERT INTO metalcore_merch (name, price, image, rating) VALUES (?, ?, ?, ?)';
+
+    // Include rating in the parameters array
+    db.query(query, [name, price, image, rating], (err, result) => {
+        if (err) {
+            res.status(500).send('Error adding new item to the database');
+            return;
+        }
+        res.status(201).json({ success: true, message: "New item added.", id: result.insertId });
+    });
+});
+
+
 
 
 // Start the server

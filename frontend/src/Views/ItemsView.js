@@ -81,7 +81,7 @@ export const ItemsLogic = () => {
       {showToast && (
         <div
           style={{
-            top: "162px", // had trouble with tailwind toast alignment
+            top: "162px", 
             position: "fixed",
             left: "65%",
             transform: "translateX(-50%)",
@@ -118,7 +118,7 @@ export const ItemsLogic = () => {
               onClick={() => setPage("author")}
               type="button"
               className="bg-black shadow-sm px-3.5 font-semibold text-sm text-white py-2.5 hover:bg-purple-600 gap-x-4 rounded-md">
-              Developer Info
+              Developer
             </button>
 
             {/* Title */}
