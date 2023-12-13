@@ -28,23 +28,18 @@ const Author = () => {
   // Function to handle the deletion of an item
   const handleDelete = async (itemId) => {
     if (!itemId) {
-      // Optionally show an error message that no item is selected
       return;
     }
-
     try {
       const response = await axios.delete(
         `http://localhost:8081/items/${itemId}`
       );
       if (response.data.success) {
-        // Remove the deleted item from the local state
         setItems(items.filter((item) => item.id !== itemId));
-        setSelectedItem({ id: "", price: "" }); // Reset selected item
-        // Optionally, show a success message
+        setSelectedItem({ id: "", price: "" });
       }
     } catch (error) {
       console.error("Error deleting item:", error);
-      // Optionally, handle the error, such as showing an error message
     }
   };
 
@@ -69,12 +64,10 @@ const Author = () => {
       });
       if (response.data.success) {
         console.log("New item added successfully");
-        setNewItem({ name: "", price: "", image: "", rating: 1 }); // Reset the form and set rating back to 1
-        // Optionally, update the items state or display a success message
+        setNewItem({ name: "", price: "", image: "", rating: 1 }); // reset form and set rating back to 1
       }
     } catch (error) {
       console.error("Error adding new item:", error);
-      // Optionally, handle the error, such as displaying an error message
     }
   };
 
@@ -102,9 +95,9 @@ const Author = () => {
           COMS-319: Construction of User Interfaces
         </h2>
         <p className="text-center mt-2">
-          Solo Developed by: Nick McCullough
+          Professor: Dr. Abraham N. Aldaco Gastelum (aaldaco@iastate.edu)
           <br />
-          Professor: Abraham Aldaco, Ph.D.
+          Solo Developed by: Nick McCullough (nickmcc@iastate.edu)
           <br />
           Final Project Repository:{" "}
           <a
@@ -112,8 +105,6 @@ const Author = () => {
             className="text-blue-600 hover:text-blue-800 bg-gray-400">
             GitHub
           </a>
-          <br />
-          Email: nickmcc@iastate.edu
           <br />
           Due Date: 12/3/2023
           <br />
@@ -299,8 +290,7 @@ const Author = () => {
             <div className="flex flex-col space-y-2">
               <label
                 htmlFor="rating"
-                className="block text-sm font-medium text-gray-700">
-              </label>
+                className="block text-sm font-medium text-gray-700"></label>
               <select
                 id="rating"
                 name="rating"

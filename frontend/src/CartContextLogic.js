@@ -1,7 +1,6 @@
-import { createContext, useState } from "react";
+import React, { createContext, useState, useEffect } from "react";
+import axios from "axios";
 
-
-export const items = require("./shopItems.json");
 
 export const CartContext = createContext({
 
@@ -49,6 +48,21 @@ export const CartLogic = ({ children }) => {
   const [state, setState] = useState("");
   const [subtotal, setSubtotal] = useState(0);
   const [zip, setZip] = useState("");
+  const [items, setItems] = useState([]);
+
+
+  useEffect(() => {
+    const fetchItems = async () => {
+      try {
+        const response = await axios.get("http://localhost:8081/items");
+        setItems(response.data);
+      } catch (error) {
+        console.error("Couldn't fetch items:", error);
+      }
+    };
+  
+    fetchItems();
+  }, []);
 
   // tax rate
   const TAX_RATE = 0.07;

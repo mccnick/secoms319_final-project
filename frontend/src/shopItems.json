@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "name": "Spiritbox - Scream Hoodie",
+      "price": 59.99,
+      "image": "https://spiritbox.com/cdn/shop/files/scream.png?v=1699430099&width=1000"
+    },
+    {
+      "id": 2,
+      "name": "Bad Omens - Nowhere Shirt",
+      "price": 29.99,
+      "image": "https://pbs.twimg.com/media/F9T4FzxbIAAdJNz?format=jpg&name=large"
+    },
+    {
+      "id": 3,
+      "name": "Dayseeker - Tie-Dye Shirt",
+      "price": 35.99,
+      "image": "https://pbs.twimg.com/media/F_ZOCPyXoAA8AeZ?format=jpg&name=medium"
+    },
+    {
+      "id": 4,
+      "name": "Sleep Token - Zip Jacket",
+      "price": 49.99,
+      "image": "https://preview.redd.it/bvx79eddo32b1.jpg?width=640&crop=smart&auto=webp&s=397250ec485dd4bbb46c59975668fe2caed88b56"
+    },
+    {
+      "id": 5,
+      "name": "The Plot In You - Duffel Bag",
+      "price": 89.99,
+      "image": "https://theplotinyou.shop/cdn/shop/files/SLIDESHOW-01.jpg?v=1683779945&width=1320"
+    },
+    {
+      "id": 6,
+      "name": "Invent Animate - Elysium Shirt",
+      "price": 29.99,
+      "image": "https://www.impericon.com/768x1110x90/media/catalog/product/f/o/fortnite_tacoskin_tops_tshirt_ts350814fnt_art22-009308_8718526392203_544815-290.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Silent Planet - Rose Shirt",
+      "price": 35.99,
+      "image": "https://pbs.twimg.com/media/FwtXmGAXsAASa7g?format=jpg&name=large"
+    },
+    {
+      "id": 8,
+      "name": "Asking Alexandria - Crow Shirt",
+      "price": 29.99,
+      "image": "https://pbs.twimg.com/media/FfE5O0eVEAEmkx1?format=jpg&name=900x900"
+    },
+    {
+      "id": 9,
+      "name": "Catch Your Breath - Shame Shirt",
+      "price": 29.99,
+      "image": "https://thrillerrecordsuk.awesomedistro.com/cdn/shop/products/extra-large_78219738-916c-49f3-914e-d3872a777b9f_1024x1024@2x.jpg?v=1692357203"
+    },
+    {
+      "id": 10,
+      "name": "Spiritbox - Beanie",
+      "price": 19.99,
+      "image": "https://spiritbox.com/cdn/shop/files/beanie1.jpg?v=1699152028&width=1000"
+    },
+    {
+      "id": 11,
+      "name": "Bad Omens - Slides",
+      "price": 14.99,
+      "image": "https://pbs.twimg.com/media/F6qy7upagAAxF_A?format=jpg&name=large"
+    },
+    {
+      "id": 12,
+      "name": "I Prevail - Shibori Hoodie",
+      "price": 89.99,
+      "image": "https://pbs.twimg.com/media/FmXTRYeXEAAHjOx?format=jpg&name=medium"
+    }
+  ]
+  
