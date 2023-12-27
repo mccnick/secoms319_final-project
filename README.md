@@ -5,9 +5,11 @@ _____
 
 <div align="center">
 I was commended by my Computer Science Professor, Dr. Abraham Aldaco, for my work, implementation and passion on this project. He invited me to showcase my project to new students in the course the following semester:
-<br>
+
   
 </div>
+
+<br>
 
 ![image](https://github.com/mccnick/secoms319_final-project/assets/91184284/d4ceb6c5-4123-477e-a664-99e374125c14)
 
