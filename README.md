@@ -42,7 +42,6 @@ _____
 
 ![image](https://github.com/mccnick/secoms319_final-project/assets/91184284/d4ceb6c5-4123-477e-a664-99e374125c14)
 
-<br>
 
 <div align="center"> I was commended by my Computer Science Professor, <a href="https://www.cs.iastate.edu/people/abraham-aldaco">Dr. Abraham Aldaco</a>, for my work, implementation and passion on this project. He invited me to showcase my project to new students in the course the following semester. </div>
 
