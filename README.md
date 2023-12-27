@@ -4,7 +4,7 @@
 _____
 
 <div align="center">
-I was commended by my Computer Science Professor, Dr. Abraham Aldaco, for my work, implementation and passion on this project. He invited me to showcase my project to new students in the course the following semester:
+I was commended by my Computer Science Professor, <a href="https://www.cs.iastate.edu/people/abraham-aldaco">Dr. Abraham Aldaco</a>, for my work, implementation and passion on this project. He invited me to showcase my project to new students in the course the following semester:
 
   
 </div>
