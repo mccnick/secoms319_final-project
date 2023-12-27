@@ -26,7 +26,7 @@ _____
 
 ### <div align="center"> Technologies Used: </div>
 
-![image](https://github.com/mccnick/secoms319_final-project/assets/91184284/f6f8dd9b-59e6-4c95-87e6-43aaece0030b)
+div align="center"> ![image](https://github.com/mccnick/secoms319_final-project/assets/91184284/f6f8dd9b-59e6-4c95-87e6-43aaece0030b) </div>
 
 
 
