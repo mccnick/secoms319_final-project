@@ -6,15 +6,13 @@ _____
 
 ### To make it very easy for you to view the source code, I have linked the main files directly below for you:
 
-<a href="https://github.com/mccnick/secoms319_final-project/blob/main/backend/server.js">server.js</a> (backend file: Node.js, Express.js, SQL Database operations)
+Backend: <a href="https://github.com/mccnick/secoms319_final-project/blob/main/backend/server.js">server.js</a> (backend file: Node.js, Express.js, SQL Database operations)
 
 
-Navigation Bar: 
-<a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Navbar.js">Navbar.js</a>
+Navigation Bar: <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Navbar.js">Navbar.js</a>
 
 
-Contexts: 
-<a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/PageContextLogic.js">Page Contexts</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/CartContextLogic.js">Cart Contexts</a>
+Contexts: <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/PageContextLogic.js">Page Contexts</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/CartContextLogic.js">Cart Contexts</a>
 
 Different Views available: <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/CartView.js">CartView.js</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/ConfirmView.js">ConfirmView.js</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/Developer.js">Developer.js</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/Home.js">Home.js</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/ItemsView.js">ItemsView.js</a>
 
