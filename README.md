@@ -1,6 +1,7 @@
 # secoms319_final-project
 
-### <div align="center"> This is my final project for COMS-319. I made a merchandise storefront for the metalcore music genre. </div>
+### <div align="center"> This is my final project for COMS-319 at Iowa State University, Fall 2023. </div>
+### <div align="center">  I made a merchandise storefront for the metalcore music genre. </div>
 ### <div align="center"> Video with commentary to see the website in action: </div>
 ###  <div align="center"> --> <a href="https://vimeo.com/895598404">Click Here</a> <-- </div>
 
