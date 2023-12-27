@@ -8,7 +8,7 @@
 ### <div align="center">Scroll below to see pictures. </div>
 _____
 
-### <div align="center"> Technologies Used: </div>
+### <div align="center"> Technologies Used </div>
 
 <div align="center">
   <img src="https://github.com/mccnick/secoms319_final-project/assets/91184284/f6f8dd9b-59e6-4c95-87e6-43aaece0030b" alt="image">
@@ -19,6 +19,8 @@ _____
 
 
 _____
+
+### <div align="center"> Source Code </div>
 
 #### <i>To make it very easy for you to view the source code, I have linked the main files directly below for you:</i>
 
@@ -36,7 +38,7 @@ _____
 
 _____
 
-
+### <div align="center"> Commendation </div>
 
 <div align="center">
 I was commended by my Computer Science Professor, <a href="https://www.cs.iastate.edu/people/abraham-aldaco">Dr. Abraham Aldaco</a>, for my work, implementation and passion on this project. He invited me to showcase my project to new students in the course the following semester:
