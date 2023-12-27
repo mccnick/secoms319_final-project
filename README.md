@@ -1,7 +1,7 @@
 # secoms319_final-project
 
 ### This is my final project for COMS-319. I made a merchandise storefront for the metalcore music genre.
-### --> <a href="https://vimeo.com/895598404">Video</a> with commentary to see the website in action. <--
+### Video with commentary to see the website in action: --> <a href="https://vimeo.com/895598404">Click Here</a> . <--
 
 ### Scroll below to see pictures.
 _____
