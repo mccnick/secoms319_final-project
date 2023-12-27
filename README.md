@@ -22,7 +22,11 @@ _____
 
 <b>Backend:</b> <a href="https://github.com/mccnick/secoms319_final-project/blob/main/backend/server.js">server.js</a> (Node.js, Express.js, SQL Database operations)
 
+_____
 
+### <div align="center"> Technologies Used: </div>
+
+![image](https://github.com/mccnick/secoms319_final-project/assets/91184284/f6f8dd9b-59e6-4c95-87e6-43aaece0030b)
 
 
 
