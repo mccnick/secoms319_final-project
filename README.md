@@ -2,6 +2,13 @@
 
 This is my final project for COMS-319. I made a merchandise storefront for the metalcore music genre.
 
+I was commended by my Computer Science professor for my work, implementation and passion on this project:
+
+![image](https://github.com/mccnick/secoms319_final-project/assets/91184284/b323d18c-469c-40c3-b078-14fbb208ded8)
+
+_____
+
+
 This is the landing page: Home.js
 
 
