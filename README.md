@@ -1,6 +1,7 @@
 # secoms319_final-project
 
-### This is my final project for COMS-319. I made a merchandise storefront for the metalcore music genre. Scroll below to see pictures.
+### This is my final project for COMS-319. I made a merchandise storefront for the metalcore music genre.
+### Scroll below to see pictures.
 _____
 
 <div align="center">
