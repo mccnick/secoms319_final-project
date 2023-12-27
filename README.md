@@ -4,7 +4,7 @@
 ### Scroll below to see pictures.
 _____
 
-### To make it very easy for you to view the source code, I have linked the main files directly below for you:
+#### To make it very easy for you to view the source code, I have linked the main files directly below for you:
 
 <b>Backend:</b> <a href="https://github.com/mccnick/secoms319_final-project/blob/main/backend/server.js">server.js</a> (Node.js, Express.js, SQL Database operations)
 
