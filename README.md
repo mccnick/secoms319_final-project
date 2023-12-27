@@ -2,7 +2,7 @@
 
 This is my final project for COMS-319. I made a merchandise storefront for the metalcore music genre.
 
-I was commended by my Computer Science professor for my work, implementation and passion on this project:
+I was commended by my Computer Science Professor, Dr. Abraham Aldaco, for my work, implementation and passion on this project. He also invited me to showcase my project and implementation to new students in the course the following semester:
 
 ![image](https://github.com/mccnick/secoms319_final-project/assets/91184284/d4ceb6c5-4123-477e-a664-99e374125c14)
 
