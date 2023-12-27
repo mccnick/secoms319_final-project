@@ -6,7 +6,7 @@ _____
 
 ### To make it very easy for you to view the source code, I have linked the main files directly below for you:
 
-Backend: <a href="https://github.com/mccnick/secoms319_final-project/blob/main/backend/server.js">server.js</a> (backend file: Node.js, Express.js, SQL Database operations)
+Backend: <a href="https://github.com/mccnick/secoms319_final-project/blob/main/backend/server.js">server.js</a> (Node.js, Express.js, SQL Database operations)
 
 
 Navigation Bar: <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Navbar.js">Navbar.js</a>
