@@ -6,15 +6,15 @@ _____
 
 ### To make it very easy for you to view the source code, I have linked the main files directly below for you:
 
-Backend: <a href="https://github.com/mccnick/secoms319_final-project/blob/main/backend/server.js">server.js</a> (Node.js, Express.js, SQL Database operations)
+<b>Backend:</b> <a href="https://github.com/mccnick/secoms319_final-project/blob/main/backend/server.js">server.js</a> (Node.js, Express.js, SQL Database operations)
 
 
-Navigation Bar: <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Navbar.js">Navbar.js</a>
+<b>Navigation Bar:</b> <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Navbar.js">Navbar.js</a>
 
 
-Contexts: <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/PageContextLogic.js">Page Contexts</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/CartContextLogic.js">Cart Contexts</a>
+<b>Contexts:</b> <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/PageContextLogic.js">Page Contexts</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/CartContextLogic.js">Cart Contexts</a>
 
-Different Views available: <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/CartView.js">CartView.js</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/ConfirmView.js">ConfirmView.js</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/Developer.js">Developer.js</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/Home.js">Home.js</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/ItemsView.js">ItemsView.js</a>
+<b>Different Views available:</b> <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/CartView.js">CartView.js</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/ConfirmView.js">ConfirmView.js</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/Developer.js">Developer.js</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/Home.js">Home.js</a>, <a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/ItemsView.js">ItemsView.js</a>
 
 
 
