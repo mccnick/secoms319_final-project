@@ -4,6 +4,44 @@
 ### Scroll below to see pictures.
 _____
 
+### To make it very easy for you to view the source code, I have linked the main files directly below for you:
+
+<a href="https://github.com/mccnick/secoms319_final-project/blob/main/backend/server.js">server.js</a> (backend file: Node.js, Express.js, SQL Database operations)
+
+
+
+<a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Navbar.js"></a>
+
+
+
+<a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/PageContextLogic.js"></a>
+
+
+<a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/CartContextLogic.js"></a>
+
+
+
+<a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/CartView.js"></a>
+
+
+
+<a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/ConfirmView.js"></a>
+
+
+<a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/Developer.js"></a>
+
+
+
+<a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/Home.js"></a>
+
+
+<a href="https://github.com/mccnick/secoms319_final-project/blob/main/frontend/src/Views/ItemsView.js"></a>
+
+
+
+
+_____
+
 <div align="center">
 I was commended by my Computer Science Professor, <a href="https://www.cs.iastate.edu/people/abraham-aldaco">Dr. Abraham Aldaco</a>, for my work, implementation and passion on this project. He invited me to showcase my project to new students in the course the following semester:
 
